@@ -2,7 +2,7 @@
 title: "Social Media"
 output: html_document
 ---
-Mass Shooting
+Social Media Campaigns of Prsidential Candidates
 =============
 
 ```{r}
