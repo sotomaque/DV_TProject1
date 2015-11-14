@@ -1,8 +1,3 @@
-require(tidyr)
-require(dplyr)
-require(ggplot2)
-
-setwd("~/Desktop/DV_TProject1/01 Data")
 
 file_path <- "data.csv"
 
@@ -14,7 +9,7 @@ df %>% View()
 
 library(plyr)
 
-measures <- c("facebook", "twitter")
+measures <- c("facebook", "twitter", "likes")
 
 # Get rid of special characters in each column.
 # Google ASCII Table to understand the following:
